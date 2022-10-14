@@ -1,0 +1,77 @@
+[
+    {
+        "page_title": "Person's Application Form",
+        "fields": [
+            {
+                "id": "name",
+                "label": "Full Name",
+                "required": true,
+                "placeholder": "Enter name ..",
+                "type": "text",
+                "value": ""
+            },
+            {
+                "id": "gender",
+                "label": "Gender",
+                "required": true,
+                "value": "Male",
+                "placeholder": "Choose options",
+                "options": [
+                    {
+                        "option_label": "Male"
+                    },
+                    {
+                        "option_label": "Female"
+                    },
+                    {
+                        "option_label": "Other"
+                    }
+                ],
+                "type": "select"
+            },
+            {
+                "id": "email",
+                "label": "Email",
+                "required": true,
+                "placeholder": "Enter email ..",
+                "type": "text"
+            },
+            {
+                "id": "employment",
+                "label": "Employment status",
+                "required": true,
+                "value": "Part-Time",
+                "placeholder": "Choose options",
+                "options": [
+                    {
+                        "option_label": "Full-Time"
+                    },
+                    {
+                        "option_label": "Part-Time"
+                    }
+                ],
+                "type": "select"
+            },
+            {
+                "id": "phone",
+                "label": "Phone Number",
+                "required": true,
+                "placeholder": "Enter phone no...",
+                "type": "text"
+            },
+            {
+                "id": "citizenship",
+                "label": "I have a citizenship card.",
+                "type": "checkbox",
+                "value": ""
+            },
+            {
+                "id": "identity",
+                "label": "Citizenship No.",
+                "required": true,
+                "placeholder": "eg. 34-07-34-233456",
+                "type": "text"
+            }
+        ]
+    }
+]
